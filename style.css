@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+header {
+    background-color: #141414;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    font-weight: 400;
+    transition-duration: 0.3s;
+}
+nav a:hover,
+nav a.active {
+    color:#04d9ff;
+}
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(180deg, #141414, #222222 ,#04d9ff );
+}
+#skills, #services,
+#about, #contacts {
+    font-size: 100px;
+    color: white;
+}
+.main-page {
+    padding: 50px;
+}
+.row {
+    display: flex;
+}
+.col-1 {
+    flex-basis: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.col-1 h5, h1, p, h2 {color: #fff}
+.col-1 h5 {
+    font-size: 20px;
+    margin: 5px 0 5px 0;
+}
+.col-1 h1 {
+    word-spacing: 5px;
+    font-size: 50px;
+}
+.col-1 p {
+    margin: 20px 0 20px 0;
+}
+.col-1 h2 span {
+    color: #04d9ff;
+    font-weight: bolder;
+}
+i {
+    font-size: 30px;
+    width: 50px;
+    color:#04d9ff;
+}
+i:hover {
+    color:#a1a1a1;
+}
+.col-2 {
+    margin: 20px 50px 0 120px;
+}
+.col-2 img {
+    width: 300px;
+    border-radius: 50%;
+}
+button {
+    margin: 20px 0 20px 0;
+    color:#141414;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #04d9ff;
+    font-weight:900;
+    cursor: pointer;
+}
+button:hover {
+    color: #04d9ff;
+    background-color: #141414;
+}
